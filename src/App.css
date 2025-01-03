@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
-}
+ body {
+    background-image: url("https://images.pexels.com/photos/2007139/pexels-photo-2007139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .App-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-Items: center;
+  margin-top: 40vh;
+ }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .title {
+     background: radial-gradient(circle at center, rgb(153, 88, 101), rgb(183, 91, 52), rgb(232, 244, 108));
+     -webkit-background-clip: text; /* For Safari */
+     background-clip: text; /* For other browsers */
+     color: transparent; 
+     font-style:oblique;
+     font-size: 3.2em;
+     position: relative;
+     top: -15vh;
+     left: 2vw;
+    
+ }
